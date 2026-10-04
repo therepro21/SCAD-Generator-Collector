@@ -1,6 +1,6 @@
 /* Extensions for live data and additional views. Approved base CSS is retained. */
 .brand{gap:9px}.brand b{font-size:16px;line-height:1.3}.brand small{font-size:10px}.logo{padding:3px;flex-shrink:0}.logo img{display:block;width:52px;height:52px;object-fit:contain}.footer button:hover{color:#53adff}
-.shell{min-height:100vh}body{overflow-x:hidden}.chooser{display:none}
+.shell{min-height:100vh}body{overflow-x:hidden}.chooser{display:none}aside{position:sticky;top:0;height:100vh}.footer{flex-shrink:0}
 .stageicon[data-state="waiting"]{opacity:.65}.status .dot.idle{background:#8195ac;box-shadow:none}
 .status .dot.warning{background:#ffcc49;box-shadow:0 0 12px #ffcc4933}
 .status .dot.error{background:#ff646c;box-shadow:0 0 12px #ff646c33}
